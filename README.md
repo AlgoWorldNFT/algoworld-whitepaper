@@ -12,10 +12,10 @@ Source codes for AlgoWorld whitepaper content.
 ## ⚙️ Prerequisites
 
 -   [pre-commit](https://pre-commit.com/)
-
+-   [rust (cargo)](https://www.rust-lang.org/tools/install) - this step might be optional, but might be needed for MacOS users.
 ## 🚧 Contribution guideline
 
-This section assumes that poetry and `pre-commit` are installed and executed from the root folder of this repository.
+This section assumes that prerequisites are installed and steps below are run from the root folder of this repository.
 
 1. Clone the repo
 
