@@ -1,7 +1,6 @@
 \documentclass{article}
 
 % Language setting
-% Replace `english' with e.g. `spanish' to change the document language
 \usepackage[english]{babel}
 
 % Set page size and margins
@@ -25,11 +24,12 @@
 \end{figure}
 
 \begin{abstract}
-The AlgoWorld Token is the utility token of the AlgoWorld NFT project, built on the Algorand blockchain. This White Paper describes the updated mechanics and distribution roadmap of this token. 
+The AlgoWorld Token is the utility token of the AlgoWorld NFT project, built on the Algorand blockchain. This White Paper describes the updated mechanics and distribution roadmap of this token.
 
 \end{abstract}
 
 \section{Introduction}
+\label{sec:introduction}
 
 AlgoWorld is an NFT project created in April 2021 on the Algorand blockchain. It first started with a set of 1500 NFT cards depicting the 193 United Nations countries around the world. Six special cards depicting continents and the world were added to reward the best AlgoWorld cards owners.
 \\
@@ -42,16 +42,21 @@ The creator address is:
 \\
 GRV2SXHUXIHF4C5KDMC6KUH47BTBCLWJFEXM464GUTXU3BDEHE634Y6K2U.
 \\
-This White Paper describes the AlgoWord Cities feature and the AlgoWorld Token distribution model. 
+This White Paper describes the AlgoWord Cities feature and the AlgoWorld Token distribution model.
 \\
 \\
 Visit \href{https://www.algoworld.io}{the AlgoWorld website} to learn more about the project.
 
 \newpage
 \section{AlgoWorld Cities feature}
-This feature allows members to create and upgrade new AlgoWorld Cities by using AlgoWorld Tokens. \textbf{All AWT used to build or upgrade cities are permanently removed from circulation.} 
+\label{sec:algoworld-cities-feature}
+
+This feature allows members to create and upgrade new AlgoWorld Cities by using AlgoWorld Tokens. \textbf{All AWT used to build or upgrade cities are permanently removed from circulation.}
+
 \subsection{Building Cities}
-Everyone can build new AlgoWorld Cities using AlgoWorld Tokens. Each city is a 100-units card, represented by an Algorand Standard Asset. The builder gets to choose the free of rights picture that is used for the card. 
+\label{ssec:building-cities}
+
+Everyone can build new AlgoWorld Cities using AlgoWorld Tokens. Each city is a 100-units card, represented by an Algorand Standard Asset. The builder gets to choose the free of rights picture that is used for the card.
 The amount of units sent is variable, depending on the ownership of a country card of the city by the builder.
 \begin{table}[ht]
 \centering
@@ -74,22 +79,25 @@ The units left are kept for random city packs available for sale on the AlgoWorl
 \textbf{Important: the same city can be built only once.}
 \\
 \\
-The price to build a city is adjusted every month according to the number of bookings. 
+The price to build a city is adjusted every month according to the number of bookings.
 
 \begin{itemize}
 \item The price is unchanged if there are between 10 and 20 cities booked in the previous month.
 \item If less than 10 cities are booked in the previous month : price decreases by 500 AWT
 \item If more than 20 cities are booked in the previous month : prince increases by 500 AWT
 \end{itemize}
-\\\\Floor price is 1500 AWT per city.
-\\\\The booking form, list of booked cities, and current city building price are available on \href{https://www.algoworld.io/city-booking}{the AlgoWorld website}.
+
+Floor price is 1500 AWT per city.
+The booking form, list of booked cities, and current city building price are available on \href{https://www.algoworld.io/city-booking}{the AlgoWorld website}.
 
 
 \subsection{Upgrading Cities}
+\label{ssec:upgrading-cities}
+
 Each city can be upgraded using AlgoWorld Token on the AlgoWorld Explorer.
 Sending AWT increases the influence points of a city and makes it earn more rewards (see \ref{CR} "City Rewards").
-1 AWT sent adds 1 influence point to the city. 
-There are 7 different ranks. The city with the highest influence is the AlgoWorld Capital. 
+1 AWT sent adds 1 influence point to the city.
+There are 7 different ranks. The city with the highest influence is the AlgoWorld Capital.
 
 \begin{table}[ht]
 \centering
@@ -107,8 +115,13 @@ AlgoWorld Capital & Highest score \\
 \end{table}
 
 \newpage
+
 \section{AlgoWorld Token distribution}
+\label{sec:algoworld-token-distribution}
+
 \subsection{Allocation of AlgoWorld Token}
+\label{ssec:allocation-of-algoworld-token}
+
 The 10,000,000 Tokens are allocated as follows:
 \begin{table}[ht]
 \centering
@@ -128,14 +141,19 @@ Further allocation & 1,158,500 AWT
 
 \begin{itemize}
 \item Project fund is detained by the AlgoWorld team and can be sold over time. The sales will never exceed 40,000 AWT/month. This fund is also used to provide liquidity in AMM.
-\item A budget of 1,000,000 AWT is introduced to incentivize AWT liquidity providers. 
-\item The early buyers compensation program of 41,500 AWT aimed to give a bonus for early AWT buyers. It was fulfilled in 2021. 
+\item A budget of 1,000,000 AWT is introduced to incentivize AWT liquidity providers.
+\item The early buyers compensation program of 41,500 AWT aimed to give a bonus for early AWT buyers. It was fulfilled in 2021.
 \item A budget of 1,158,500 AWT (around 10\% of total supply) is not allocated yet. Its allocation will be decided later on, after consultation of the community.
 \end{itemize}
 
 \newpage
+
 \subsection{Detailed allocation}
+\label{ssec:detailed-allocation}
+
 \subsubsection{Country rewards}
+\label{sssec:country-rewards}
+
 Rewards are sent weekly for each country card of the AlgoWorld collection.
 The rewards distribution rate is accelerated compared to the initial roadmap, to ensure full distribution in a reasonable timeframe. Country cards rewards will be fully distributed in around 80 weeks.
 \begin{table}[ht]
@@ -152,7 +170,8 @@ World card & 500 AWT/card \\
 \end{table}
 
 \subsubsection{City rewards}
-\label{CR}
+\label{sssec:city-rewards}
+
 The rewards for each city card depend on the city rank. It is reminded that each city has 100 cards. The total amount of city rewards (3,000,000 AWT) is split into three tranches of 1,000,000 AWT each.
 \begin{table}[ht]
 \centering
@@ -178,11 +197,14 @@ AlgoWorld Capital & 10 AWT/card \\
 \textit{For instance, the holder of 20 cards of a Regular City will earn 20 AWT/weekly during the first tranche distribution.}
 
 \subsubsection{Liquidity providing rewards}
+\label{sssec:liquidity-providing-rewards}
 
 AWT rewards will be sent weekly to liquidity providers. The total amount dedicated to this category is 1,000,000 AWT.
 2\% of AWT provided to Tinyman Algo/AWT liquidity pool will be sent every week to each liquidity provider. This distribution rate could be changed to distribute the liquidity rewards over 2 to 4 years.
 
 \subsubsection{Games}
+\label{sssec:games}
+
 Games such as treasure hunts will be organized to have roughly 100,000 AWT distributed each year.
 
 
